@@ -1819,10 +1819,10 @@
         <div class="icon icon-disconnected" jseval="updateIconClass(this.classList, iconClass)" alt="" jstcache="2"></div>
         <div id="main-message" jstcache="0">
           <h1 jstcache="0">
-            <span jsselect="heading" jsvalues=".innerHTML:msg" jstcache="14">You're not connected</span>
+            <span jsselect="heading" jsvalues=".innerHTML:msg" jstcache="14">You are not connected</span>
             <a id="error-information-button" class="hidden" onclick="toggleErrorInformationPopup();" jstcache="0"></a>
           </h1>
-          <p jsselect="summary" jsvalues=".innerHTML:msg" jstcache="3">And the web just isn't the same without you. Let's get you back online!</p>
+          <p jsselect="summary" jsvalues=".innerHTML:msg" jstcache="3">The web just ist the same without you. Let's not get you back online.</p>
           <div id="https-upgrades-message" class="hidden" jstcache="0">
             <p id="https-upgrades-message-details" jsselect="httpsUpgradesMessage" jsvalues=".innerHTML:msg" class="hidden" jstcache="15" style="display: none;"></p>
           </div>
@@ -1840,7 +1840,7 @@
                       <li jsselect="suggestionsSummaryList" jsvalues=".innerHTML:summary" jstcache="26" jsinstance="0">Checking your network cables, modem, and routers</li><li jsselect="suggestionsSummaryList" jsvalues=".innerHTML:summary" jstcache="26" jsinstance="1">Reconnecting to your wireless network</li><li jsselect="suggestionsSummaryList" jsvalues=".innerHTML:summary" jstcache="26" jsinstance="*2"><a href="javascript:diagnoseErrors()" id="diagnose-link" jstcache="0">Running Windows Network Diagnostics</a></li>
                     </ul>
                   </div>
-                  <div class="error-code" jscontent="errorCode" jstcache="22">DNS_PROBE_FINISHED_NO_INTERNET</div>
+                  <div class="error-code" jscontent="errorCode" jstcache="22">NO_INTERNET</div>
                   <p id="error-information-popup-close" jstcache="0">
                     <a class="link-button" jscontent="closeDescriptionPopup" onclick="toggleErrorInformationPopup();" jstcache="25">null</a>
                   </p>
@@ -1908,7 +1908,7 @@
         </div>
       </div>
       <div id="game-buttons" jsdisplay="!!showGameButtons" jstcache="1" style="">
-        <span id="game-message" jscontent="playGameMsg" jstcache="5">Want to play a game while you wait?</span>
+        <span id="game-message" jscontent="playGameMsg" jstcache="5">Chcesz pogarać sobie w grę podczs czekania?</span>
         <div class="managed-icon" jsdisplay="!!disabledGame" jstcache="6"></div>
         <button id="game-button" onclick="launchGame()" jsselect="gameButton" jscontent="msg" jstcache="7">Launch game</button>
       </div>
@@ -1917,7 +1917,7 @@
       <!-- Show details when hovering over the icon, in case the details are
            hidden because they're too large. -->
       <div class="icon icon-disconnected" jseval="updateIconClass(this.classList, iconClass)" jstcache="2"></div>
-      <div id="sub-frame-error-details" jsselect="summary" jsvalues=".innerHTML:msg" jstcache="3">And the web just isn't the same without you. Let's get you back online!</div>
+      <div id="sub-frame-error-details" jsselect="summary" jsvalues=".innerHTML:msg" jstcache="3">The web just is the same without you. Let's not get you back online.</div>
     </div>
   
   
